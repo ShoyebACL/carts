@@ -1,0 +1,15 @@
+"timeseries": [{
+    "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
+    "aggregation"  : "avg",
+    "tags"         : "app:carts,environment:dev",
+    "upperLimit"   : 800,
+    "lowerLimit"   : 600
+},
+{
+    "timeseriesId"  : "com.dynatrace.builtin:service.serversidefailurerate",
+    "aggregation"   : "avg",
+    "tags"          : "app:carts,environment:dev"
+    "upperLimit"    : 5,
+    "lowerLimit"    : 0
+}
+ ]
